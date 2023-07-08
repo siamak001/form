@@ -1,0 +1,116 @@
+@import "asset/fontvazir.css";
+
+* {
+    font-family: vazir;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    color: #303030;
+}
+
+body {
+    background-image: url("asset/image/background.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+a {
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.container {
+    width: 1600px;
+    margin: auto;
+}
+
+.main {
+    margin: 50px auto;
+    border-radius: 20px;
+    background-color: #74b9ff;
+    box-shadow: 0px 0px 24px 3px rgba(0, 0, 0, 0.75);
+    padding: 50px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.div-right {
+    width: 45%;
+
+}
+
+.div-right img {
+    width: 70%;
+    display: block;
+    border-radius: 20px;
+    margin: auto;
+}
+
+.div-left {
+    width: 45%;
+}
+
+.div-left h1 {
+    text-align: center;
+}
+
+.div-left label {
+    display: block;
+    margin-bottom: 5px;
+
+}
+
+.div-left input , .div-left textarea {
+    display: block;
+    margin-bottom: 10px;
+    padding: 10px;
+    width: 100%;
+    border-radius: 5px;
+    border: none;
+    opacity: .8;
+}
+.div-left textarea {
+    display: block;
+    margin-bottom: 10px;
+    padding: 10px;
+    width: 100%;
+    border-radius: 5px;
+    border: none;
+    opacity: .8;
+    height: 150px;
+}
+.div-left button{
+    background: #0984e3;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    font-weight: bold;
+}
+.div-left button:hover{
+    color: #303030;
+    transition: all .2s ease-in-out;
+    cursor: pointer;
+}
+
+.div-left input:focus , .div-left textarea:focus{
+    box-shadow: 0px 0px 10px 1px rgba(0, 0, 0, 0.75);
+}
+textarea:focus, input:focus{
+    outline: none;
+}
+.success{
+    color: #00b894;
+    background: #55efc4;
+    border: solid 1px #00b894;
+    padding: 5px;
+    margin-top: 10px;
+    border-radius: 10px;
+}
+.danger{
+    color: red;
+    background: rgba(230, 98, 98, 0.58);
+    padding: 5px;
+    border-radius: 5px;
+    margin-bottom: 5px;
+}
